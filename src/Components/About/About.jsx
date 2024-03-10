@@ -6,7 +6,7 @@ import Title from "../Title/Title";
 const About = () => {
   return (
     <Container>
-      <Row className="program-row mb-5">
+      <Row>
         <Col>
           <img
             width={500}
