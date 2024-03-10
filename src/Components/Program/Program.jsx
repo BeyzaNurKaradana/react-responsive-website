@@ -1,10 +1,23 @@
 import React from 'react'
 import "./Program.css"
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row,Col } from 'react-bootstrap';
 
 const Program = () => {
   return (
-    <div></div>
+    <Container>
+        <Row className='program-row'>
+            <Col>
+                <img className='studentPhoto' src='https://greatstack.in/assets/program-1-DA_EvTPy.png' alt='student1'/>
+            </Col>
+            <Col>
+                <img className='studentPhoto' src='https://greatstack.in/assets/program-1-DA_EvTPy.png' alt='student2'/>
+            </Col>
+            <Col>
+                <img className='studentPhoto' src='https://greatstack.in/assets/program-1-DA_EvTPy.png' alt='student3'/>
+            </Col>
+        </Row>
+    </Container>
   )
 }
 

@@ -10,8 +10,8 @@ const App = () => {
     <div>
       <Navbar fixed="top"/>
       <Hero/>
-      <Program/>
       <Title subTitle={"OUR PROGRAM"} title={"What We Offer"}/>
+      <Program/>
     </div>
   )
 }
