@@ -32,3 +32,8 @@ nav{
     height: 2.5rem;
 }
 
+.dark-nav{
+    background-color: blue;
+    transition: 0.5s;
+}
+

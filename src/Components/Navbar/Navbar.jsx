@@ -3,10 +3,24 @@ import "./Navbar.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Button, Container} from "react-bootstrap";
 import "../../index.css";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Navbar = () => {
+
+  const[sticky,setSticky] = useState(false)
+
+  useEffect(() =>{
+    window.addEventListener("scroll", () =>{
+      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+    })
+  },[]);
+
+
+
+
   return (
-    <Container className="background" fluid>
+    <Container fluid className= {`background ${sticky ? `dark-nav`: ``} `}>
       <nav className="container" >
         <img
           className="logo"
