@@ -15,7 +15,7 @@ const Hero = () => {
             field of education
           </p>
           <Button className="btn ms-0" variant="light">
-          Contact Us
+          Explore More
           </Button>
         </Col>
       </Row>
