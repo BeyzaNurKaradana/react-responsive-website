@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
+import { Button, Container} from "react-bootstrap";
 import "../../index.css";
 
 const Navbar = () => {
   return (
-    <div className="background">
-      <nav className="container">
+    <Container className="background" fluid>
+      <nav className="container" >
         <img
           className="logo"
           src="https://greatstack.in/assets/logo-DUdXW4nF.png"
@@ -24,7 +24,7 @@ const Navbar = () => {
           Contact Us
         </Button>
       </nav>
-    </div>
+    </Container>
   );
 };
 
