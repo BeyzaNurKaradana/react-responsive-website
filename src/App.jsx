@@ -7,6 +7,7 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Campus from './Components/Campus/Campus'
 import Testimonials from './Components/Testimonials/Testimonials'
+import CommentCards from './Components/CommentCards/CommentCards'
 
 const App = () => {
   return (
