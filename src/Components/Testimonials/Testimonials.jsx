@@ -12,7 +12,7 @@ function Testimonials() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} >
       <div className="deneme">
         
           <CommentCards
